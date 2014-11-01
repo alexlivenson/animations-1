@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AnimePartOneVC.swift
 //  Animations-1
 //
 //  Created by alex livenson on 10/30/14.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class AnimePartOneVC: UIViewController {
+
     @IBOutlet weak var numberOfFishSlider: UISlider!
     
     override func viewDidLoad() {
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func animateBttn(sender: UIButton) {
-//        setupMovingSquare()
+        //        setupMovingSquare()
         setupSwimmingFish()
     }
     
@@ -80,8 +80,5 @@ class ViewController: UIViewController {
         });
         
     }
-    
-    
-    
-}
 
+}

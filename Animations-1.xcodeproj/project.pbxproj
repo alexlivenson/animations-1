@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEDF79961A048A9A00ECABB9 /* AnimatePartTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79951A048A9A00ECABB9 /* AnimatePartTwoVC.swift */; };
 		CEE97C5B1A0304F000D4E519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */; };
 		CEE97C5D1A0304F000D4E519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C5C1A0304F000D4E519 /* ViewController.swift */; };
 		CEE97C601A0304F000D4E519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE97C5E1A0304F000D4E519 /* Main.storyboard */; };
 		CEE97C621A0304F000D4E519 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE97C611A0304F000D4E519 /* Images.xcassets */; };
 		CEE97C651A0304F000D4E519 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE97C631A0304F000D4E519 /* LaunchScreen.xib */; };
 		CEE97C711A0304F000D4E519 /* Animations_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C701A0304F000D4E519 /* Animations_1Tests.swift */; };
+		CEE97C7E1A030FFC00D4E519 /* blue-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE97C7D1A030FFC00D4E519 /* blue-fish.png */; };
+		CEE97C831A03193800D4E519 /* AnimePartOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C821A03193800D4E519 /* AnimePartOneVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEDF79951A048A9A00ECABB9 /* AnimatePartTwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatePartTwoVC.swift; sourceTree = "<group>"; };
 		CEE97C551A0304F000D4E519 /* Animations-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animations-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE97C591A0304F000D4E519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		CEE97C6A1A0304F000D4E519 /* Animations-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animations-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE97C6F1A0304F000D4E519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE97C701A0304F000D4E519 /* Animations_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations_1Tests.swift; sourceTree = "<group>"; };
+		CEE97C7D1A030FFC00D4E519 /* blue-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-fish.png"; path = "../../../Downloads/blue-fish.png"; sourceTree = "<group>"; };
+		CEE97C821A03193800D4E519 /* AnimePartOneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimePartOneVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,8 @@
 		CEE97C4C1A0304F000D4E519 = {
 			isa = PBXGroup;
 			children = (
-				CEE97C571A0304F000D4E519 /* Animations-1 */,
+				CEE97C7A1A030CB400D4E519 /* images */,
+				CEE97C571A0304F000D4E519 /* Animations */,
 				CEE97C6D1A0304F000D4E519 /* Animations-1Tests */,
 				CEE97C561A0304F000D4E519 /* Products */,
 			);
@@ -74,9 +81,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEE97C571A0304F000D4E519 /* Animations-1 */ = {
+		CEE97C571A0304F000D4E519 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CEE97C811A03190500D4E519 /* Animations-2 */,
+				CEE97C801A0318EE00D4E519 /* Animations-1 */,
 				CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */,
 				CEE97C5C1A0304F000D4E519 /* ViewController.swift */,
 				CEE97C5E1A0304F000D4E519 /* Main.storyboard */,
@@ -84,6 +93,7 @@
 				CEE97C631A0304F000D4E519 /* LaunchScreen.xib */,
 				CEE97C581A0304F000D4E519 /* Supporting Files */,
 			);
+			name = Animations;
 			path = "Animations-1";
 			sourceTree = "<group>";
 		};
@@ -110,6 +120,30 @@
 				CEE97C6F1A0304F000D4E519 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE97C7A1A030CB400D4E519 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97C7D1A030FFC00D4E519 /* blue-fish.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CEE97C801A0318EE00D4E519 /* Animations-1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97C821A03193800D4E519 /* AnimePartOneVC.swift */,
+			);
+			name = "Animations-1";
+			sourceTree = "<group>";
+		};
+		CEE97C811A03190500D4E519 /* Animations-2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF79951A048A9A00ECABB9 /* AnimatePartTwoVC.swift */,
+			);
+			name = "Animations-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE97C601A0304F000D4E519 /* Main.storyboard in Resources */,
+				CEE97C7E1A030FFC00D4E519 /* blue-fish.png in Resources */,
 				CEE97C651A0304F000D4E519 /* LaunchScreen.xib in Resources */,
 				CEE97C621A0304F000D4E519 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +249,8 @@
 			files = (
 				CEE97C5D1A0304F000D4E519 /* ViewController.swift in Sources */,
 				CEE97C5B1A0304F000D4E519 /* AppDelegate.swift in Sources */,
+				CEDF79961A048A9A00ECABB9 /* AnimatePartTwoVC.swift in Sources */,
+				CEE97C831A03193800D4E519 /* AnimePartOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +442,7 @@
 				CEE97C761A0304F000D4E519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE97C771A0304F000D4E519 /* Build configuration list for PBXNativeTarget "Animations-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +451,7 @@
 				CEE97C791A0304F000D4E519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
