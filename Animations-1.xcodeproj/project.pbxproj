@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEDF79961A048A9A00ECABB9 /* AnimatePartTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79951A048A9A00ECABB9 /* AnimatePartTwoVC.swift */; };
+		CEDF79991A04975400ECABB9 /* KeyFrameAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79981A04975400ECABB9 /* KeyFrameAnimations.swift */; };
 		CEE97C5B1A0304F000D4E519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */; };
 		CEE97C5D1A0304F000D4E519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE97C5C1A0304F000D4E519 /* ViewController.swift */; };
 		CEE97C601A0304F000D4E519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE97C5E1A0304F000D4E519 /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		CEDF79951A048A9A00ECABB9 /* AnimatePartTwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatePartTwoVC.swift; sourceTree = "<group>"; };
+		CEDF79981A04975400ECABB9 /* KeyFrameAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimations.swift; sourceTree = "<group>"; };
+		CEDF799A1A049E4000ECABB9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		CEE97C551A0304F000D4E519 /* Animations-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animations-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE97C591A0304F000D4E519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEDF79971A04973300ECABB9 /* KeyFrameAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF79981A04975400ECABB9 /* KeyFrameAnimations.swift */,
+			);
+			name = KeyFrameAnimations;
+			sourceTree = "<group>";
+		};
 		CEE97C4C1A0304F000D4E519 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +95,7 @@
 		CEE97C571A0304F000D4E519 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CEDF79971A04973300ECABB9 /* KeyFrameAnimations */,
 				CEE97C811A03190500D4E519 /* Animations-2 */,
 				CEE97C801A0318EE00D4E519 /* Animations-1 */,
 				CEE97C5A1A0304F000D4E519 /* AppDelegate.swift */,
@@ -126,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE97C7D1A030FFC00D4E519 /* blue-fish.png */,
+				CEDF799A1A049E4000ECABB9 /* MyPlayground.playground */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 				CEE97C5B1A0304F000D4E519 /* AppDelegate.swift in Sources */,
 				CEDF79961A048A9A00ECABB9 /* AnimatePartTwoVC.swift in Sources */,
 				CEE97C831A03193800D4E519 /* AnimePartOneVC.swift in Sources */,
+				CEDF79991A04975400ECABB9 /* KeyFrameAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

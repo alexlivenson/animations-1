@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5wz-TW-qqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BGz-hK-oGQ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -50,12 +50,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140.5" y="76.5"/>
+            <point key="canvasLocation" x="324.5" y="-179.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Key Frame Animations-->
+        <scene sceneID="f13-QY-Wbe">
+            <objects>
+                <viewController id="BGz-hK-oGQ" customClass="KeyFrameAnimations" customModule="Animations_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NUy-yZ-Baz"/>
+                        <viewControllerLayoutGuide type="bottom" id="2qG-ve-oeq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="txF-0j-1x4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ote-yj-yRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="644"/>
+        </scene>
+        <!--Animate Part TwoVC-->
         <scene sceneID="aEu-u3-KTY">
             <objects>
-                <viewController id="5wz-TW-qqX" sceneMemberID="viewController">
+                <viewController id="5wz-TW-qqX" customClass="AnimatePartTwoVC" customModule="Animations_1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GCh-v8-EE4"/>
                         <viewControllerLayoutGuide type="bottom" id="HSe-7U-SUF"/>
@@ -63,13 +82,24 @@
                     <view key="view" contentMode="scaleToFill" id="Gb6-VR-40N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGl-4l-R6f">
+                                <rect key="frame" x="89" y="582" width="136" height="30"/>
+                                <state key="normal" title="Animate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateButtonTapped:" destination="5wz-TW-qqX" eventType="touchUpInside" id="1dW-We-Zy2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0LS-Ri-EmQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="822.5" y="92.5"/>
+            <point key="canvasLocation" x="1046.5" y="-179.5"/>
         </scene>
     </scenes>
 </document>
